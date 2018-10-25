@@ -1,0 +1,23 @@
+{
+  "name": "sqltomarkdown",
+  "version": "1.0.0",
+  "description": "sql to markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phantom0424/SqlToMarkdown.git"
+  },
+  "keywords": [
+    "sql",
+    "markdown"
+  ],
+  "author": "phantom0424",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phantom0424/SqlToMarkdown/issues"
+  },
+  "homepage": "https://github.com/phantom0424/SqlToMarkdown#readme"
+}
