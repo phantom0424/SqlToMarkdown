@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/phantom0424/SqlToMarkdown/issues"
   },
-  "homepage": "https://github.com/phantom0424/SqlToMarkdown#readme"
+  "homepage": "https://github.com/phantom0424/SqlToMarkdown#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "markdown-table": "^1.1.2",
+    "mysql": "^2.16.0"
+  }
 }
