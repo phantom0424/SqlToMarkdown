@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "sql to markdown",
   "main": "index.js",
+  "bin": {
+    "SqlToMarkdown": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/phantom0424/SqlToMarkdown#readme",
   "dependencies": {
+    "commander": "^2.19.0",
     "lodash": "^4.17.11",
     "markdown-table": "^1.1.2",
     "mysql": "^2.16.0"
