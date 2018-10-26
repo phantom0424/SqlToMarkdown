@@ -7,11 +7,11 @@ var sqlToMarkdown = require('../lib');
 
 program
     .version('1.0.0')
-    .option('-h, --host [s]', '数据库连接')
-    .option('-u, --user [s]', '数据库用户名')
-    .option('-p, --password [s]', '数据库密码')
-    .option('--database <s>', '数据名称')
-    .option('-o, --output-file [s]', '输出文件名')
+    .option('-h, --host [s]', 'database host，default："localhost"')
+    .option('-u, --user [s]', 'database user，default："root"')
+    .option('-p, --password [s]', 'database password，default：""')
+    .option('--database <s>', 'database name')
+    .option('-o, --output-file [s]', 'output file name，default："sql.md"')
     .parse(process.argv);
 
 const params = pick(program, ['host', 'user', 'password', 'database', 'outputFile']);
