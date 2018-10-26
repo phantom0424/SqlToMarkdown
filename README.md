@@ -1,6 +1,8 @@
 # SqlToMarkdown
 convert mysql table structures to markdown table
 
+![](screenshot.png)
+
 ## install
 
 ```
