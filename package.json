@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/phantom0424/SqlToMarkdown#readme",
   "dependencies": {
-    "commander": "^2.19.0",
+    "commander": "^4.0.1",
     "lodash": "^4.17.11",
     "markdown-table": "^1.1.2",
     "mysql": "^2.16.0"
